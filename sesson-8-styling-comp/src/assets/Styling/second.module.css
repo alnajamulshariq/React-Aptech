@@ -1,0 +1,9 @@
+.heading{
+    color: blue;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 15px;
+    border: 2px dashed green;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}

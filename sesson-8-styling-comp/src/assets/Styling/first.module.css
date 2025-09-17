@@ -1,0 +1,9 @@
+.heading{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
