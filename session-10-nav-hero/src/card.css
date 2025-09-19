@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  align-items: stretch;   /* image aur content same height lenge */
+  width: 380px;           /* fixed width */
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cardImg {
+  width: 50%;             /* card ka half hissa image ko */
+}
+
+.cardImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cardCont {
+  width: 50%;             /* card ka half hissa content ko */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* content vertically center ho */
+}
+
+.cardHeading {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.cardSubtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.cardDesc {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.cardBtn {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cardBtn:hover {
+  background: #0056b3;
+}
